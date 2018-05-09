@@ -14,8 +14,9 @@ sudo ln -s /home/wykys/projects/beautifly-c/beautify-c.py beautifly-c
 ## Use
 ```sh
 beautifly-c --help                # for help, you can use -h
-beautifly-c --file your_directory # for help, you can use -f
-beautifly-c --file your.c         # for help, you can use -f
+beautifly-c --file your_directory # for your_directory -f
+beautifly-c --file your.c         # for your file -f
+beautifly-c                       # for actual diractory -f
 ```
 
 ## Parameters
