@@ -31,7 +31,7 @@ class Beautifly:
         files = []
         for fil in os.scandir(path):
             if fil.is_dir():
-                files.extend(find_files(path + fil.name))
+                files.extend(self.find_files(path + fil.name))
             elif self.check_extension(fil.name):
                 files.append(path + fil.name)
         return sorted(files)
