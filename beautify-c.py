@@ -39,6 +39,7 @@ class Beautifly:
     def beautifly(self, path):
         os.system('uncrustify -c {} --no-backup {}'.format(UNCRUSTIFY_CONFIG, path))
 
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
         description='The script runs uncrustify for the specified file, or recursively to the specified folder.'
