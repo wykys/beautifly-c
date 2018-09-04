@@ -9,6 +9,9 @@ sudo aptitude install uncrustify
 cd /usr/bin
 # /home/wykys/projects replace your location
 sudo ln -s /home/wykys/projects/beautifly-c/beautify-c.py beautifly-c
+# create a link to the configuration file
+cd ~/.config
+ln -s /home/wykys/projects/beautifly-c/uncrustify.cfg
 ```
 
 ## Use
