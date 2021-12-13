@@ -37,7 +37,7 @@ class Beautifly:
         return sorted(files)
 
     def beautifly(self, path):
-        os.system('uncrustify -c {} --no-backup {}'.format(UNCRUSTIFY_CONFIG, path))
+        os.system('uncrustify -c {} --replace --no-backup {}'.format(UNCRUSTIFY_CONFIG, path))
 
 
 if __name__ == '__main__':
